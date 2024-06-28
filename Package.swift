@@ -12,6 +12,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "GT3Captcha", path: "./Sources/GT3Captcha.xcframework")
+        .binaryTarget(name: "GT3Captcha", path: "XCFrameworks/GT3Captcha/GT3Captcha.xcframework")
     ]
 )
